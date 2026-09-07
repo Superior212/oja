@@ -33,7 +33,7 @@ Discover, negotiate, settle is the agentic payments thesis. It is also just what
 Requires Node 20.11 or newer. No runtime dependencies.
 
 ```bash
-git clone https://github.com/<you>/oja.git
+git clone https://github.com/Superior212/oja.git
 cd oja
 npm install
 cp .env.example .env      # then add your Moove API key
