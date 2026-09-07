@@ -1,0 +1,30 @@
+{
+  "name": "oja",
+  "version": "0.1.0",
+  "description": "A WhatsApp commerce agent that negotiates a price with the buyer and settles it through Moove agentic payments.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --experimental-strip-types test/*.test.ts",
+    "dev": "node --experimental-strip-types src/server.ts",
+    "link:create": "node --experimental-strip-types scripts/create-link.ts",
+    "link:watch": "node --experimental-strip-types scripts/watch-link.ts"
+  },
+  "keywords": [
+    "moove",
+    "agentic-payments",
+    "whatsapp",
+    "commerce",
+    "crypto",
+    "nigeria"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
